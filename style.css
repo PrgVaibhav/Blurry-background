@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bg{
+    background: url(banner.jpg) no-repeat center center/cover;
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    filter: blur(0px);
+}
+
+.loadingText{
+    font-size: 30px;
+    color: #fff;
+}
